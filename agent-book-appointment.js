@@ -6,7 +6,7 @@
 
 const { chromium } = require('@playwright/test');
 
-const APP_URL = 'https://muhammadhasanbaig.github.io/claude-projects/';
+const APP_URL = 'https://muhammadhasanbaig.github.io/medi-connect/';
 
 (async () => {
   const browser = await chromium.launch({
