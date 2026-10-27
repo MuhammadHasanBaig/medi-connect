@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('basic Regression: Register and login @regression', async ({ page }) => {
-  await page.goto('https://muhammadhasanbaig.github.io/claude-projects/');
+  await page.goto('https://muhammadhasanbaig.github.io/medi-connect/');
   await page.locator('#navSignupItem').getByRole('link', { name: 'Sign Up' }).click();
   await page.getByRole('textbox', { name: 'John' }).click();
   await page.getByRole('textbox', { name: 'John' }).fill('Hasan');
